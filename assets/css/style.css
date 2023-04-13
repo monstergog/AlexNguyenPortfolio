@@ -1,3 +1,4 @@
+/* Setting up baseline appareances for the webpage */
 body {
   display: flex;
   flex-direction: column;
@@ -6,11 +7,13 @@ body {
   color: #bababa;
 }
 
-header {
+/* h1 formatting */
+h1 {
   font-size: 60px;
   padding: 1%;
 }
 
+/* Setting a background image along with area size and flexbox */
 main {
   margin-bottom: 2%;
   height: 100%;
@@ -24,6 +27,7 @@ main {
   flex-wrap: wrap;
 }
 
+/* Setting opacity and color settings to be used in text boxes */
 .transparent {
   margin: 2%;
   background-color: black;
@@ -31,15 +35,18 @@ main {
   opacity: 0.8;
 }
 
+/* Setting flex grow/shrink/basis */
 aside {
   flex: 1 1 100%;
   padding: 5%;
 }
 
-aside h2 {
+/* h2 (about me) font settings */
+h2 {
   font-size: 50px;
 }
 
+/* Setting flexbox and position for avatar and contact info */
 aside section {
   padding-top: 5%;
   display: flex;
@@ -48,28 +55,34 @@ aside section {
   align-items: center;
 }
 
+/* Avatar image modification */
 aside img {
   border-radius: 10%;
 }
 
-aside ul {
-  margin-left: 5%;
-}
-
-aside h3 {
+/* h3 (Contact) font settings */
+h3 {
   font-size: 25px;
 }
 
+/* Contact info font settings */
 aside li {
   font-weight: bold;
 }
 
+/* Contact info spacing */
+aside ul {
+  margin-left: 5%;
+}
+
+/* Anchor font and color stlylizing */
 a {
   font-weight: 100;
   color: #bababa;
   text-decoration: none;
 }
 
+/* Setting flexbox and positioning for navigation menu */
 nav {
   flex: 1;
   font-size: 20px;
@@ -78,10 +91,12 @@ nav {
   align-items: center;
 }
 
+/* Adding pseudo-elements to before and after list elements*/
 nav li::before, nav li::after {
   content: '\2728';
 }
 
+/* Setting flexbox spacing and positioning for portfolio projects */
 .portfolio {
   flex: 4;
   padding: 50px;
@@ -91,6 +106,7 @@ nav li::before, nav li::after {
   align-items: flex-start;
 }
 
+/* Larger size and flex scaling */
 .big-projects {
   padding: 10px;
   margin: 20px;
@@ -98,6 +114,7 @@ nav li::before, nav li::after {
   border-radius: 25px;
 }
 
+/* Smaller size and flex scaling */
 .small-projects {
   padding: 10px;
   margin: 20px;
@@ -105,17 +122,20 @@ nav li::before, nav li::after {
   border-radius: 25px;
 }
 
+/* h4 (big project names) font settings */
 h4 {
   text-align: center;
   font-size: 25px;
   padding: 20px;
 }
 
+/* h5 (small project names) font settings */
 h5 {
   text-align: center;
   padding: 10px;
 }
 
+/* Project image border, opacity, and hover transition setup */
 .big-projects img, .small-projects img {
   border: 5px solid gold;
   transition: all 0.5s ease-in-out;
@@ -123,17 +143,19 @@ h5 {
   opacity: 0.7;
 }
 
+/* Project image hover glow and opacity effect */
 .big-projects img:hover, .small-projects img:hover {
   box-shadow: inset 0px 0px 30px rgba(255, 0, 0), 0 0 15px rgba(255, 0, 0);
   opacity: 1;
 }
 
+/* footer styling */
 footer {
   background-color: rgb(5, 61, 110);
 }
 
+/* Media query and adjusting elements according to screen size */
 @media screen and (min-width: 768px) {
-
   aside {
     flex: 1 1 60%;
   }
@@ -156,7 +178,8 @@ footer {
 }
 
 
-/* Leaving this code in for later to see what went wrong */
+/* Leaving this code in for later for myself to study what went wrong*/
+
 /* 
 .row {
   display: flex;
