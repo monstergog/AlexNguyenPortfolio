@@ -6,8 +6,12 @@ body {
   color: #bababa;
 }
 
+header {
+  font-size: 60px;
+  padding: 1%;
+}
+
 main.background {
-  margin-top: 2%;
   margin-bottom: 2%;
   height: 820px;
   width: 100%;
@@ -76,4 +80,18 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+article .project {
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+}
+
+article .project:hover {
+  box-shadow: inset 0px 0px 8px rgba(255, 0, 0, 0.25), 0 0 15px rgba(255, 0, 0, 0.25);
+}
+
+
+article img {
+  width: 500px;
 }
