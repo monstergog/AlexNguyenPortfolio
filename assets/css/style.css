@@ -90,6 +90,14 @@ nav {
   justify-content: center;
   align-items: center;
 }
+nav li {
+  border-radius: 30%;
+  transition: all 0.5s ease-in-out;
+}
+
+nav li:hover {
+  box-shadow: inset 0px 0px 30px white, 0 0 15px white;
+}
 
 /* Adding pseudo-elements to before and after list elements*/
 nav li::before, nav li::after {
