@@ -11,7 +11,7 @@ header {
   padding: 1%;
 }
 
-main.background {
+main {
   margin-bottom: 2%;
   height: 820px;
   width: 100%;
@@ -95,3 +95,5 @@ article .project:hover {
 article img {
   width: 500px;
 }
+
+
