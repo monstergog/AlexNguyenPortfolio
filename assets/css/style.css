@@ -78,6 +78,10 @@ nav {
   align-items: center;
 }
 
+nav li::before, nav li::after {
+  content: '\2728';
+}
+
 .portfolio {
   flex: 4;
   padding: 50px;
