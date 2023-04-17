@@ -10,7 +10,7 @@ Once the repo has been downloaded, you can open the webpage by opening on the in
 
 ## Usage
 
-https://monstergog.github.io/portfolio/
+https://monstergog.github.io/AlexNguyenPortfolio/
 
 Open the webpage and you can read about me and find my contact information. If you wish to view projects that I have worked on, you can navigate to their links and screenshots by clicking on one of the projects marked with ✨.
 
